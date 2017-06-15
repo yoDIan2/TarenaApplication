@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yodian2.tarena.mytravelapplication.Fragment.HotFragment">
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:background="#3BB5FF"
+        android:orientation="horizontal"
+        android:id="@+id/likesearch"
+        android:layout_width="match_parent"
+        android:layout_height="47dp">
+        <EditText
+
+            android:background="@drawable/bageditext"
+            android:hint="请输入您感兴趣的内容"
+            android:layout_marginLeft="27dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="197dp"
+            android:layout_height="37dp" />
+        <Button
+            android:textColor="#ffffff"
+            android:background="#3BB5FF"
+            android:id="@+id/btnsearch"
+            android:text="go"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textColor="#ffffff"
+            android:background="#3BB5FF"
+            android:id="@+id/btnarti"
+            android:text="发起吐槽"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/likesearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyList"
+        android:background="#F0F0F0"></android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,1 @@
+include ':app', ':ylapplication', ':mytravelapplication', ':netapplication', ':employeeapplication', ':Emp', ':yuebaapplication', ':Mp', ':injectmyapplication', ':weatherreportapplication', ':chartapplication', ':dazhongapplication'

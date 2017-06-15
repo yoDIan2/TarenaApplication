@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Emp" />
+            <option value="$PROJECT_DIR$/Mp" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/chartapplication" />
+            <option value="$PROJECT_DIR$/dazhongapplication" />
+            <option value="$PROJECT_DIR$/employeeapplication" />
+            <option value="$PROJECT_DIR$/injectmyapplication" />
+            <option value="$PROJECT_DIR$/mytravelapplication" />
+            <option value="$PROJECT_DIR$/netapplication" />
+            <option value="$PROJECT_DIR$/weatherreportapplication" />
+            <option value="$PROJECT_DIR$/ylapplication" />
+            <option value="$PROJECT_DIR$/yuebaapplication" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

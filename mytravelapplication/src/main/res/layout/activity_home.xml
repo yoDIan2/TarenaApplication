@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.yodian2.tarena.mytravelapplication.HomeActivity">
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/hometoolbar"
+        android:background="#3BB5FF"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textColor="#ffffff"
+                android:textSize="27dp"
+                android:text="吐槽吧"
+                android:layout_marginLeft="17dp"
+                android:id="@+id/toolbarTv"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/toolbarmore"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/moretoolbar"
+                android:layout_marginRight="7dp"/>
+            <ImageView
+                android:src="@drawable/login"
+                android:layout_marginRight="7dp"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/toolbarmore"
+                android:id="@+id/toolbarlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:layout_below="@+id/hometoolbar"
+        android:id="@+id/homecontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/line"></FrameLayout>
+    <View
+        android:id="@+id/line"
+        android:layout_above="@+id/ragmenubottom"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EBEBEB"></View>
+    <RadioGroup
+        android:layout_alignParentBottom="true"
+
+
+        android:orientation="horizontal"
+        android:id="@+id/ragmenubottom"
+        android:layout_width="match_parent"
+        android:layout_height="57dp">
+        <RadioButton
+            android:paddingTop="7dp"
+            android:drawableTop="@drawable/radiomenuhot"
+            android:text="热点"
+            android:gravity="center"
+            android:id="@+id/rabtnhot"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:drawableTop="@drawable/radiomenufind"
+            android:text="发现"
+            android:gravity="center"
+            android:button="@null"
+            android:id="@+id/rabtnfind"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:drawableTop="@drawable/radiomenulike"
+            android:text="收藏"
+            android:gravity="center"
+            android:button="@null"
+            android:id="@+id/rabtnlike"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:drawableTop="@drawable/radiomenumore"
+            android:text="更多"
+            android:gravity="center"
+            android:button="@null"
+            android:id="@+id/rabtnmore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+</RelativeLayout>

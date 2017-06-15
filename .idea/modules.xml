@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Emp/Emp.iml" filepath="$PROJECT_DIR$/Emp/Emp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Level3Application.iml" filepath="$PROJECT_DIR$/Level3Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mp/Mp.iml" filepath="$PROJECT_DIR$/Mp/Mp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chartapplication/chartapplication.iml" filepath="$PROJECT_DIR$/chartapplication/chartapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dazhongapplication/dazhongapplication.iml" filepath="$PROJECT_DIR$/dazhongapplication/dazhongapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/employeeapplication/employeeapplication.iml" filepath="$PROJECT_DIR$/employeeapplication/employeeapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/injectmyapplication/injectmyapplication.iml" filepath="$PROJECT_DIR$/injectmyapplication/injectmyapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mytravelapplication/mytravelapplication.iml" filepath="$PROJECT_DIR$/mytravelapplication/mytravelapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netapplication/netapplication.iml" filepath="$PROJECT_DIR$/netapplication/netapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weatherreportapplication/weatherreportapplication.iml" filepath="$PROJECT_DIR$/weatherreportapplication/weatherreportapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ylapplication/ylapplication.iml" filepath="$PROJECT_DIR$/ylapplication/ylapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuebaapplication/yuebaapplication.iml" filepath="$PROJECT_DIR$/yuebaapplication/yuebaapplication.iml" />
+    </modules>
+  </component>
+</project>
